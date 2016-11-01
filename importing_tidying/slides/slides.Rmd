@@ -48,11 +48,15 @@ For our work today, it includes the following R packages:
 
 - `tidyr` for converting "messy" into "tidy" data frames
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
+
 ## Why am I here...?
 
 ![Hadley's Workflow](figure/data-science.png)
 
 ![Tidy Data](figure/tidy-1.png)
+
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## Basics of Importing
 
@@ -70,7 +74,11 @@ We will begin by downloading and importing a variety of different "messy" data s
 - <small>[County level results for 2012 POTUS election from The Guardian (SPSS SAV)](https://fusiontables.google.com/DataSource?docid=1qcQLqrAIAe3RcEfdWSm_QcXMLmteVg4uSpSs1rM)
 </small>
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
+
 ## Demonstration
+
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## Practice
 
@@ -82,7 +90,9 @@ We will begin by downloading and importing a variety of different "messy" data s
         - [`readxl` for XLS and XLSX files](https://github.com/hadley/readxl)
         - [`readr` for CSV and TSV files (and R specific RDS files)](http://readr.tidyverse.org/)
     - Give them the following names: `who_df`, `county_pop_df`, `edu_county_df`, and `potus12_df`
-        
+  
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
+
 ## Tidying
 
 ### The Life Expectancy by year data
@@ -102,6 +112,8 @@ View(life_exp_df)
 knitr::include_graphics("figure/le_mess.png")
 ```
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
+
 ## Using the `tidyr` package
 
 - Highly recommend downloading the RStudio Cheatsheets [here](https://www.rstudio.com/resources/cheatsheets/) and specifically the Data Wrangling one [here](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
@@ -109,6 +121,8 @@ knitr::include_graphics("figure/le_mess.png")
 ```{r echo=FALSE}
 knitr::include_graphics("figure/tidyverbs.png")
 ```
+
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## Doing the "tidying"/reshaping
 
@@ -119,10 +133,11 @@ library(dplyr)
     gather(key = "year", value = "life_exp", -country))
 ```
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## Tidying
 
-### World Health Organization TB data (Stata DTA)
+#### World Health Organization TB data (Stata DTA)
 
 ```{r include=FALSE}
 # For the presentation the data is in a different location
@@ -139,6 +154,7 @@ View(who_df)
 knitr::include_graphics("figure/who_mess.png")
 ```
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## WHO ugly... {.build}
 
@@ -147,6 +163,8 @@ knitr::include_graphics("figure/who_mess.png")
      - `country`, `iso2`, and `iso3` are redundant and identify the country
      - `year` is a variable and it looks like it corresponds to each country
 - But what in the world is `new_sp_m014`? And the other columns?...
+
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## First step
 
@@ -163,6 +181,7 @@ We can now see what this has done to the data frame:
 View(who_tidy)
 ```
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## Data dictionary saves us some...
 
@@ -176,6 +195,8 @@ View(who_tidy)
     - ...
     - `65` for 65 or older
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
+
 ***
 
 - Looking over the entries of `key` in `who_tidy`, do you see anything else that doesn't match the pattern?
@@ -186,6 +207,7 @@ View(who_tidy)
 names(who_df)
 ```
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## A fix using `stringr`
 
@@ -200,17 +222,20 @@ who_tidy <- who_tidy %>%
     replacement = "new_rel"))
 ```
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
+
 ## Pulling apart variables
 
-The entry `new_sp_m014` is actually four different variables.  
-
-Use the `separate` function to pull them apart:
+The entry `new_sp_m014` is actually four different variables.  Use the `separate` function to pull them apart:
 
 ```{r}
 who_tidy <- who_tidy %>% 
   separate(col = key, into = c("new", "type", "sexage"), sep = "_")
 who_tidy
 ```
+
+
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## One more pull apart
 
@@ -223,6 +248,9 @@ who_tidy <- who_tidy %>%
 who_tidy
 ```
 
+
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
+
 ## Final cleaning
 
 - `iso2` and `iso3` are redundant if we have `country`
@@ -233,8 +261,10 @@ who_tidy
 ```{r, tidy=FALSE}
 who_tidy <- who_tidy %>% select(-iso2, -iso3, -new) %>% 
   na.omit() %>% rename("cases" = value)
-who_tidy
+head(who_tidy, 7)
 ```
+
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## The power of the `%>%` (pipe)
 
@@ -253,13 +283,15 @@ who_tidy <- who_df %>%
   rename("cases" = value)
 ```
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
+
 ## BONUS
 
-### A Gapminder tidy dataset read in from a Google Sheet!
+#### A Gapminder tidy dataset read in from a Google Sheet!
 
-I've updated the `gapminder` data set available in the `gapminder` R data package by Jenny Bryan [here](https://github.com/jennybc/gapminder/).  Jenny provides instructions for recreating the data [here](https://github.com/jennybc/gapminder/tree/master/data-raw).
+- <small>I've updated the `gapminder` data set available in the `gapminder` R data package by Jenny Bryan [here](https://github.com/jennybc/gapminder/).  Jenny provides instructions for recreating the data [here](https://github.com/jennybc/gapminder/tree/master/data-raw).</small>
 
-- You can download the updated data from Google Sheets by running the following in R:
+- <small>You can download the updated data from Google Sheets by running the following in R:</small>
 
 ```{r eval=FALSE}
 # Link is https://docs.google.com/spreadsheets/d/18L5ZiXd1CQ97XWSqb04x1YQ4ncsEOdR7eHzgX0ZIuPA/edit?usp=sharing
@@ -268,11 +300,16 @@ updated_gap <- gs_key("18L5ZiXd1CQ97XWSqb04x1YQ4ncsEOdR7eHzgX0ZIuPA") %>%
 ```
 
 
-- A script going through the steps to take the "messy" original Gapminder.org files and turn them into this tidy dataset is available [here]().
+- <small>A script going through the steps to take the "messy" original Gapminder.org files and turn them into this tidy dataset is available [here](https://raw.githubusercontent.com/ismayc/tidyverse_workshops/master/importing_tidying/data/cleaning.R).</small>
+
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## More practice
 
 Try to tidy the other three data sets you downloaded and imported.
+
+
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
 
 ## Additional resources
 
@@ -286,10 +323,12 @@ Try to tidy the other three data sets you downloaded and imported.
     * Chapter [11](http://r4ds.had.co.nz/data-import.html) on Importing Data
     * Chapter [12](http://r4ds.had.co.nz/tidy-data.html) on Tidying Data
 
+<small>Slides available at <http://bit.ly/reed-imp-tidy></small>
+
 ## Thanks!
 
 - All workshop materials available [here](https://github.com/ismayc/tidyverse_workshops)
-- Slides available [here]()
+- Slides available [here](https://htmlpreview.github.io/?https://github.com/ismayc/tidyverse_workshops/blob/master/importing_tidying/slides/slides.html#/)
     
 ---
 
