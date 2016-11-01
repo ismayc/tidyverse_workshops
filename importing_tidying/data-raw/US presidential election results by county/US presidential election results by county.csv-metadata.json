@@ -1,0 +1,1372 @@
+{
+  "licenseType": "Unknown",
+  "dc:description": "Imported at Wed Nov 14 07:10:09 PST 2012 from US elect county2.xls.",
+  "exportable": true,
+  "dc:title": "US presidential election results by county",
+  "dc:modified": "2012-11-14T15:14:38Z",
+  "dc:identifier": "1qcQLqrAIAe3RcEfdWSm_QcXMLmteVg4uSpSs1rM",
+  "tableSchema": {"columns": [
+    {
+      "datatype": "string",
+      "name": "col0",
+      "validateData": false,
+      "title": "State Postal"
+    },
+    {
+      "datatype": "location",
+      "name": "col1",
+      "validateData": false
+    },
+    {
+      "datatype": "double",
+      "name": "col2",
+      "validateData": false,
+      "title": "County Number"
+    },
+    {
+      "datatype": "double",
+      "name": "col3",
+      "validateData": false,
+      "title": "FIPS Code"
+    },
+    {
+      "datatype": "location",
+      "name": "col4",
+      "validateData": false,
+      "title": "County Name"
+    },
+    {
+      "datatype": "location",
+      "name": "col5",
+      "validateData": false
+    },
+    {
+      "datatype": "string",
+      "name": "col6",
+      "validateData": false,
+      "title": "Office Description"
+    },
+    {
+      "datatype": "double",
+      "name": "col7",
+      "validateData": false,
+      "title": "Precincts Reporting"
+    },
+    {
+      "datatype": "double",
+      "name": "col8",
+      "validateData": false,
+      "title": "Total Precincts"
+    },
+    {
+      "datatype": "double",
+      "name": "col9",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "double",
+      "name": "col10",
+      "validateData": false,
+      "title": "TOTAL VOTES CAST"
+    },
+    {
+      "datatype": "double",
+      "name": "col11",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "name": "col12",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "name": "col13",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col14",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "name": "col15",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col16",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "double",
+      "name": "col17",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "double",
+      "name": "col18",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "double",
+      "name": "col19",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col20",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "double",
+      "name": "col21",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "double",
+      "name": "col22",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "double",
+      "name": "col23",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "name": "col24",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "name": "col25",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col26",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "name": "col27",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col28",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "double",
+      "name": "col29",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "double",
+      "name": "col30",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "double",
+      "name": "col31",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "name": "col32",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "double",
+      "name": "col33",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "double",
+      "name": "col34",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "double",
+      "name": "col35",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "location",
+      "name": "col36",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "name": "col37",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col38",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "name": "col39",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col40",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "double",
+      "name": "col41",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "double",
+      "name": "col42",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "double",
+      "name": "col43",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col44",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "double",
+      "name": "col45",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "double",
+      "name": "col46",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "double",
+      "name": "col47",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "location",
+      "name": "col48",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "location",
+      "name": "col49",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col50",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "name": "col51",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col52",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "double",
+      "name": "col53",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "double",
+      "name": "col54",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "double",
+      "name": "col55",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col56",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "double",
+      "name": "col57",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "double",
+      "name": "col58",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "double",
+      "name": "col59",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "location",
+      "name": "col60",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "name": "col61",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col62",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "name": "col63",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col64",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "double",
+      "name": "col65",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "double",
+      "name": "col66",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "double",
+      "name": "col67",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col68",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "double",
+      "name": "col69",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col70",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col71",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col72",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col73",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col74",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col75",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col76",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col77",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col78",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col79",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col80",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col81",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col82",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col83",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col84",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col85",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col86",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col87",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col88",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col89",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col90",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col91",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col92",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col93",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col94",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col95",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col96",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col97",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col98",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col99",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col100",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col101",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col102",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col103",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col104",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col105",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col106",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col107",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col108",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col109",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col110",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col111",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col112",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col113",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col114",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col115",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col116",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col117",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col118",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col119",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col120",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col121",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col122",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col123",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col124",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col125",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col126",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col127",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col128",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col129",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col130",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col131",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col132",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col133",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col134",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col135",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col136",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col137",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col138",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col139",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col140",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col141",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col142",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col143",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col144",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col145",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col146",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col147",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col148",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col149",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col150",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col151",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col152",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col153",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col154",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col155",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col156",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col157",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col158",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col159",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col160",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col161",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col162",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col163",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col164",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col165",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col166",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col167",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col168",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col169",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col170",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col171",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col172",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col173",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col174",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col175",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col176",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col177",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col178",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col179",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col180",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col181",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col182",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col183",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col184",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col185",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col186",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col187",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col188",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col189",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col190",
+      "validateData": false,
+      "title": "State Candidate Number (varies between state)"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col191",
+      "validateData": false,
+      "title": "Order"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col192",
+      "validateData": false,
+      "title": "Party"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col193",
+      "validateData": false,
+      "title": "First name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col194",
+      "validateData": false,
+      "title": "Middle name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col195",
+      "validateData": false,
+      "title": "Last name"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col196",
+      "validateData": false,
+      "title": "Junior?"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col197",
+      "validateData": false,
+      "title": "Use Junior"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col198",
+      "validateData": false,
+      "title": "Incumbent"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col199",
+      "validateData": false,
+      "title": "Votes"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col200",
+      "validateData": false,
+      "title": "Winner"
+    },
+    {
+      "datatype": "string",
+      "formatPattern": "<a href='%1$s'>%1$s<\/a>",
+      "name": "col201",
+      "validateData": false,
+      "title": "National Politician ID (NPID)"
+    },
+    {
+      "datatype": "double",
+      "name": "col202",
+      "validateData": false,
+      "title": "TOTAL VOTES CAST"
+    }
+  ]}
+}
